@@ -1,0 +1,12 @@
+* text=auto
+*.json eol=lf
+*.js eol=lf
+*.ts eol=lf
+*.tsx eol=lf
+*.css eol=lf
+*.html eol=lf
+*.md eol=lf
+*.config.js eol=lf
+*.lock eol=lf
+*.prompt eol=lf
+*.gitignore eol=lf
