@@ -37,3 +37,37 @@ npm install
 ```sh
 npm run dev
 ```
+# 🚀 Git Workflow Guide
+
+##1️⃣ Setup Git (Only Once per Machine)
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "your-email@example.com"
+```
+👉 This sets up your Git username and email.
+##2️⃣ Initialize a New Repository (If Not Cloned)
+```sh
+git init
+```
+👉 Creates a new Git repository in the current folder.
+##3️⃣ Clone an Existing Repository
+```sh
+git clone https://github.com/your-username/your-repo.git
+```
+👉 Copies a remote Git repository to your local system.
+##4️⃣ Check the Current Status of Your Repo
+```sh
+git status
+```
+👉 Shows which files are modified, staged, or untracked.
+##5️⃣ Add Changes to Staging Area
+```sh
+git add .
+```
+👉 Adds all modified files to the staging area.
+
+###To add a specific file:
+```sh
+git add filename.txt
+```
+## 🏆 You're Ready to Use Git Like a Pro! 🚀
