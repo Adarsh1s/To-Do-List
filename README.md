@@ -70,4 +70,71 @@ git add .
 ```sh
 git add filename.txt
 ```
+## 6️⃣ Commit Changes with a Message
+```sh
+git commit -m "Your commit message"
+```
+👉 Saves the changes in the repository with a description.
+## 7️⃣ Push Changes to GitHub
+```sh
+git push origin main
+```
+👉 Sends local commits to the remote repository.
+## 8️⃣ Pull the Latest Changes from Remote
+```sh
+git pull origin main
+```
+👉 Fetches and merges changes from the remote repository.
+## 9️⃣ Create a New Branch (For Features/Fixes)
+```sh
+git checkout -b feature-branch
+```
+👉 Creates and switches to a new branch.
+
+### To switch back to the main branch:
+```sh
+git checkout main
+```
+## 🔟 Merge a Branch into Main
+```sh
+git checkout main
+git merge feature-branch
+```
+👉 Merges changes from feature-branch into main.
+## 1️⃣1️⃣ Create a Pull Request (PR)
+### 1) Push your branch to GitHub:
+```sh
+git push origin feature-branch
+```
+### 2) Go to your GitHub repo.
+### 3) Click Compare & pull request.
+### 4) Add a description and submit the pull request.
+### 5) Merge the PR once approved.
+
+## 1️⃣2️⃣ View Commit History
+```sh
+git log --oneline --graph --decorate --all
+```
+👉 Shows a simplified commit history.
+## 1️⃣3️⃣ Undo Last Commit (If Needed)
+### If you haven't pushed yet.
+```sh
+git reset --soft HEAD~1
+```
+### If you want to discard the changes.
+```sh
+git reset --hard HEAD~1
+```
+
+## 1️⃣4️⃣ Delete a Branch
+```sh
+git branch -d feature-branch
+```
+👉 Deletes a branch locally.
+
+### To delete from remote:
+```sh
+git push origin --delete feature-branch
+```
+
 ## 🏆 You're Ready to Use Git Like a Pro! 🚀
