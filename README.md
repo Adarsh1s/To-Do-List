@@ -28,3 +28,12 @@ This is a **modern To-Do List application** that not only helps manage tasks eff
 ```sh
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+```
+### 2️⃣ Install dependencies
+```sh
+npm install
+```
+### 3️⃣ Start the development server
+```sh
+npm run dev
+```
